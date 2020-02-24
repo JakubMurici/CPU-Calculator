@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-SystemKey = "d2e69be50baef9c6dff7be94fdcc01"
-SystemSecret = "D2E69BE50BD0F3EDD0C5DAC3BF7A"
+SystemKey = ""       #Enter your system key
+SystemSecret = ""    #Enter your system secret
 url = "https://platform.clearblade.com"
 
 mySystem = System(SystemKey, SystemSecret, url, safe=False)
